@@ -7,16 +7,16 @@ label {
     background: grey;
     border-radius: 200px;
     position: relative;
-
 }
-label::after{
+
+label:after {
     content: '';
     position: absolute;
-top: 1.px;
-left: 10px;
-width: 180px;
-height: 180px;
-background: white;
-border-radius: 90px;
-transition: 0.4s;
+    top: 10px;
+    left: 10px;
+    width: 180px;
+    height: 180px;
+    background: white;
+    border-radius: 90px;
+    transition: 0.4s;
 }
